@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            20CYS202-UID
+        </title>
+        <link rel=" " href="">
+    </head>
+    <header class="header" style="margin-left:-60px;">
+        <!--style fo header-->
+        <style>
+           
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                background-color: white;
+                
+            }
+            .li, .a, .button{
+                font-family: "Montserrat",sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                color:black;
+                text-decoration: none;
+            }
+            .header{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 10%;
+            }
+            .logo{
+                cursor: pointer;
+            }
+            .navlink{
+                    list-style: none;
+                }
+                .navlink .li{
+                    display: inline-block;
+                    padding: 0px 20px;
+                }
+                .a1 {
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+    }
+    
+     .a1::before,
+    .a1::after {
+     content: '';
+      position: absolute;
+      width: 100%;
+      left: 0;
+    }
+    .a1::before {
+      background-color: #cc005f;
+      height: 2px;
+      bottom: 0;
+      transform-origin: 100% 50%;
+      transform: scaleX(0);
+      transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    }
+    .a1:hover::before {
+      transform-origin: 0% 50%;
+      transform: scaleX(1);
+    }
+    .a1 {
+      text-decoration: none;
+    
+      font-weight: 700;
+      vertical-align: top;
+    }
+            .button{
+                padding:9px 25px;
+                background-color: #cc005f;
+                color:white;
+                border:none;
+                border-radius: 50px;
+                cursor :pointer;
+                transition:all 0.3s ease 0s;
+            }
+            .button:hover{
+                background-color: #cc005fa8;
+            }
+            
+            .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+          }
+         
+          .image {
+            flex-basis: 5%
+    
+          }
+          .text {
+            font-size: 12px;
+            padding-left: 10px;
+            color:#edf0f1;
+            font-family: "Montserrat",sans-serif;
+          }
+          body{
+            display: flex;
+            flex-direction: column;
+            max-width:1240px;
+            margin:0 auto;
+            width: 1240px;
+            height:auto;
+           
+    
+          }
+        </style>
+        <div class="container">
+            <div class="image">
+            </div>
+            <div class="text">
+              <img src="../images/aum.png" width="170px" height="80px">
+            </div>
+          </div>
+        <nav>
+                <ul class="navlink">
+                    <li class="li"><a class="a a1"href="">Home</a></li>
+                    <li class="li"><a class="a a1" href="">Pay</a></li>
+                    <li class="li"><a class="a a1" href="">News</a></li>
+                    <li class="li"><a class="a a1" href="">Login</a></li>
+                    <li class="li"><a class="a a1" href="">Signup</a></li>
+                </ul>
+            </nav>
+            </div>
+            <a class="cta" href=""><button class="button">Contact</button></a>
+        </header>
+        <body style="font-family: Montserrat,sans-serif;">
+            <style>
+                .p1{
+                    font-size: 50px;
+                    margin-top: 40px;
+                }
+                input[type="text"] {
+    position: relative;
+    border: 2px solid #bfbfbf;
+    border-radius: 5px;
+    display: block;
+    font-size: 1em;
+    padding: 10px 25px 10px 12px;
+    width: 200px;
+    background: 0 0;
+    text-align: left;
+    color: inherit;
+    box-shadow: none;
+    outline: none;}
+input[type="text"] {
+    color: black;
+    background-color: transparent;
+    border-color: #555;
+}
+.input1{
+    margin-top: 30px !important;
+    margin-left: -250px;
+}
+.input2{
+    margin-top: -42px;
+    margin-left: 200px !important;
+}
+.input3{
+    margin-top: 20px;
+    margin-left: -25px;
+    width: 425px !important;
+}
+textarea {
+    writing-mode: horizontal-tb !important;
+    font-family: monospace;
+    color: fieldtext;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    padding: 2px;
+}
+.divtest{
+    font-family: "Poppins", Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75em;
+    color: #d5d5d5;
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 200px !important;
+    margin-left:200px;
+}
+.divtest1{
+    margin-left: 0px;
+    width: 200px !important;
+}
+input[type="submit"]{
+    color: #fff;
+    background-color: #cc005f;
+    box-shadow: 0px 10px 10px -8px rgb(0 0 0 / 78%);
+    font-size: 1em;
+    line-height: 1.5;
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+
+}
+
+            </style>
+           <center>
+            <p class="p1">Sign Up 
+                and enjoy!
+            </p>
+            <input class="input1" type="text" placeholder="First name">
+            <input class="input2" type="text" placeholder="Last name">
+            <input class="input3" type="text" placeholder="College ID No.">
+            <input class="input3" type="text" placeholder="College Email ID">
+            <input class="input3" type="text" placeholder="+91">
+            <input class="input3" type="text" placeholder="Password">
+            <input class="input3" type="text" placeholder="Confirm password">
+            <div style="margin-left:-220px"> 
+                <input class="divtest"type="submit" value="Signup">
+            <input class="divtest1"type="submit" value="Login">
+            </div>
+            
+           </center> 
+        </body>
+</html>
