@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            20CYS202-UID
+        </title>
+        <link rel=" " href="">
+    </head>
+    <header class="header" style="margin-left:-60px;">
+        <!--style fo header-->
+        <style>
+           
+            @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                background-color: white;
+                
+            }
+            .li, .a, .button{
+                font-family: "Montserrat",sans-serif;
+                font-weight: 500;
+                font-size: 16px;
+                color:black;
+                text-decoration: none;
+            }
+            .header{
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 10%;
+            }
+            .logo{
+                cursor: pointer;
+            }
+            .navlink{
+                    list-style: none;
+                }
+                .navlink .li{
+                    display: inline-block;
+                    padding: 0px 20px;
+                }
+                .a1 {
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+    }
+    
+     .a1::before,
+    .a1::after {
+     content: '';
+      position: absolute;
+      width: 100%;
+      left: 0;
+    }
+    .a1::before {
+      background-color: #cc005f;
+      height: 2px;
+      bottom: 0;
+      transform-origin: 100% 50%;
+      transform: scaleX(0);
+      transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    }
+    .a1:hover::before {
+      transform-origin: 0% 50%;
+      transform: scaleX(1);
+    }
+    .a1 {
+      text-decoration: none;
+    
+      font-weight: 700;
+      vertical-align: top;
+    }
+            .button{
+                padding:9px 25px;
+                background-color: #cc005f;
+                color:white;
+                border:none;
+                border-radius: 50px;
+                cursor :pointer;
+                transition:all 0.3s ease 0s;
+            }
+            .button:hover{
+                background-color: #cc005fa8;
+            }
+            
+            .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+          }
+         
+          .image {
+            flex-basis: 5%
+    
+          }
+          .text {
+            font-size: 12px;
+            padding-left: 10px;
+            color:#edf0f1;
+            font-family: "Montserrat",sans-serif;
+          }
+          body{
+            display: flex;
+            flex-direction: column;
+            max-width:1240px;
+            margin:0 auto;
+            width: 1240px;
+            height:auto;
+           
+    
+          }
+        </style>
+        <div class="container">
+            <div class="image">
+            </div>
+            <div class="text">
+              <img src="images/aum.png" width="170px" height="80px">
+            </div>
+          </div>
+        <nav>
+                <ul class="navlink">
+                    <li class="li"><a class="a a1"href="">Home</a></li>
+                    <li class="li"><a class="a a1" href="">Register</a></li>
+                    <li class="li"><a class="a a1" href="">News</a></li>
+                    <li class="li"><a class="a a1" href="">Login</a></li>
+                    <li class="li"><a class="a a1" href="./html/signup.html">Signup</a></li>
+                </ul>
+            </nav>
+            </div>
+            <a class="cta" href=""><button class="button">Contact</button></a>
+        </header>
+        <body>
+            <style>
+                .box{
+                    width: 850px;
+                    height: 650px;
+                    background-color: #cc005f;
+                    opacity: 0.2;
+                    margin-top: 60px;
+                }
+                .p1{
+                    font-size: 60px;
+                    color: #cc005f;
+                }
+                .b1{
+                    width: 190px;
+                    font-size: 40px;
+                    border: 0px;
+                    color: #cc005f;
+                }
+                .label1{
+                    margin-top: 90px;
+    margin-left: 400px;
+    font-size: 25px;
+                }
+                .input1{
+                    width: 250px;
+    margin-left: 101px;
+    height: 30px;
+    border-radius: 5px;
+                }
+                .input2{
+                    width: 120px;
+    margin-left: 100px;
+    height: 30px;
+    border-radius: 5px;
+                }
+                .input5{
+                    width: 250px;
+    margin-left: 79px;
+    height: 30px;
+    border-radius: 5px;
+                }
+                .input6{
+                    width: 250px;
+    margin-left: 66px;
+    height: 30px;
+    border-radius: 5px;
+                }
+                .input7{
+                    width: 250px;
+    margin-left: 76px;
+    height: 30px;
+    border-radius: 5px;
+                }
+                .input8{
+                    width: 120px;
+    margin-left: 5px;
+    height: 30px;
+    border-radius: 5px;
+                }
+                .input3{
+                    width: 20px;
+    margin-left: 10px;
+    height: 20px;
+                }
+                .div1{
+                    margin-left: 400px;
+                }
+                .input4{
+                    width: 250px;
+    margin-left: 400px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+                }
+            </style>
+            <script>
+                function myFunction() {
+                  document.getElementById("myForm").submit();
+                }
+                </script>
+            <!-- <script>
+                var i = 0;
+                var txt = 'Event Register Form';
+                var speed = 50;
+                
+                function typeWriter() {
+                  if (i < txt.length) {
+                    document.getElementById("hello").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                  }
+                }
+                </script>
+                <center><button onclick="typeWriter()" class="b1"> Click Me!..</button></center>
+            <center><p class="p1" id="hello"> </p></center> -->
+            
+            <center><p class="p1">Event Register Form...</p></center><br><br>
+            <form id="myForm">
+            <div>
+                <!-- <center><div><div class="box"></div></div>
+                    <label>Your Name</label>
+                </center>
+                 -->
+                 <label class="label1" for="fname">Your Name:</label>
+                 <input type="text" id="fname" class="input1" placeholder=" Name"><br><br>
+                 <label class="label1" for="Email">college Email:</label>
+                 <input type="email" id="Email" class="input5" placeholder=" Email"><br><br>
+                 <label class="label1" for="Phone">Phone Number:</label>
+                 <input type="number" id="Phone" class="input6" placeholder=" Phone Number"><br><br>
+                 <label for="NOP" class="label1">No of Persons:</label>
+                 <select name="NOP" id="NOP" class="input7">
+                    <option value="NOPNONE">-</option>
+                    <option value="NOP1">1</option>
+                     <option value="NOP2">2</option>
+                     <option value="NOP3">3</option>
+                     <option value="NOP4">4</option>
+                    </select><br><br>
+                    <label class="label1" for="DT">Date / Time:</label>
+                    <input type="date" id="DT" class="input2">  
+                    <input type="time" id="DT" class="input8"><br><br> 
+                    <label for="Gender" class="label1">Please choose your gender:</label>  <br><br> 
+                    <div class="div1">
+                        <input type="radio" id="male" class="input3">
+                        <label>Male</label><br><br>  
+                        <input type="radio" id="female" class="input3">
+                        <label>Female</label><br><br>
+                        <input type="radio" id="nonbinary" class="input3">
+                        <label>Nonbinary</label><br><br>    
+                    </div>
+                    <label for="Dep" class="label1">Choose your department:</label>  <br><br> 
+                    <div class="div1">
+                        <input type="checkbox" id="Dep" class="input3">
+                        <label>CYBER</label><br><br>  
+                        <input type="checkbox" id="Dep" class="input3">
+                        <label>CSE</label><br><br>
+                        <input type="checkbox" id="Dep" class="input3">
+                        <label>EEE</label><br><br>    
+                        <input type="checkbox" id="Dep" class="input3">
+                        <label>ECE</label><br><br>    
+                        <input type="checkbox" id="Dep" class="input3">
+                        <label>AIE</label><br><br>    
+                        <input type="checkbox" id="Dep" class="input3">
+                        <label>MASSCOM</label><br><br>    
+                        <input type="checkbox" id="Dep" class="input3">
+                        <label>DATASCIENCE</label><br><br>    
+                    </div>
+
+                    
+            </div>
+            <center><input type="button" onclick="myFunction()" value="Submit form" style="background-color: #cc005f;color: #edf0f1;"></center>
+            </form>
+        </body>
+        <br><br><br><br>
+        <center><footer>&copy; Copyrights by Amrita</footer></center>
+</html>
