@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Didact+Gothic&display=swap');
+body {
+    min-width: 800px;
+     /* background: #ff00cc;
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+  background: linear-gradient(to right, #333399, #ff00cc);
+   */
+   background: black;
+   background-image: url("../img/bg3.gif");
+    margin:0px;
+    font-family: 'Montserrst',sans-serif;
+  }
+
+.ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-top: -60px;
+}
+.li2{
+  float: left;
+}
+.li1 {
+  float: right;
+}
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  
+}
+li a:hover{
+  color: black;
+}
+.trapezoid-down {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 80px solid #EA176E;
+  height:0;
+	width: 400px;
+  opacity: 1;
+}
+.trapezoid-down1 {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 80px solid #EA176E;
+  /* background: ; */
+  height:0;
+	width: 400px;
+  opacity: 1;
+  float: right;
+  margin-top: -80px;
+}
+.amritalogo{
+  margin-top: -200px;
+  transition: transform .2s;
+}
+.amritalogo:hover{
+  transform: scale(1.05);
+}
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.296);
+    margin-left: 400px;
+    margin-top: 130px;
+}
+.box1{
+    width: 30px;
+    height: 420px;
+    background-color: rgba(255, 255, 255, 0.296);
+    margin-left: 899px;
+    margin-top: -460px;
+}
+.box2{
+    width: 500px;
+    height: 70px;
+    background-color: rgb(190, 190, 190);
+    margin-left: 400px;
+    margin-top: 430px;
+}
+.loginshape {
+	border-bottom: 50px solid white;
+	border-left: 0px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 250px;
+    margin-top: -550px;
+    margin-left: 400px;
+}
+.p1{
+    color: black;
+    font-size: 25px;
+    margin-top: -500px;
+    margin-left: 450px;
+}
+
+.submit{
+    font-size: 20px;
+	color: #fff;
+	border: 0px;
+    background: transparent;
+    border: 2px solid #EA176E;
+	border-radius: 20px;
+	text-shadow: none;
+    width: 100px;
+    height: 40px;
+}
+.submit:hover{
+    background-color: #EA176E;
+}
+
+/* test */
+
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    margin-top: 60px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  .imginsta{
+    color: #EA176E;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: -50px;
+  }
+  .imgfb{
+    color: #EA176E;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+  .trapezoid-up {
+    border-bottom: 80px solid #EA176E;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+      width: 400px;
+    opacity: 1;
+  }
