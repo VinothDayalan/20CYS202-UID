@@ -2,26 +2,22 @@
 <html>
     <head>
         <link rel="stylesheet" href="../css/con.css">
+        <link rel="icon" href="../img/anokhalogo.png">
     </head>
     <header>
         <script>
             function ValiAll(){
                     value = document.forms.umail.value;
                     txt = document.forms.contxt.value;
-                    value1 = document.forms.uname.value;
-                    var validRegex = /^[a-zA-Z0-9.-]+@[a-zA-Z.]+(\.[a-zA-Z0-9-])/;
-                    if (value1 != ""){
-                        if (value.match(validRegex)) {
-                            if (txt != ""){
-                                alert("Form is valid");
-                            }else{
-                                alert("Invalid message");
-                            }
+                    var validRegex = /^[a-zA-Z0-9]+@[a-zA-Z]+(\.[a-zA-Z0-9-])/;
+                    if (value.match(validRegex)) {
+                        if (txt != ""){
+                            alert("Form is valid");
                         }else{
-                            alert("Invalid email address!");
+                            alert("Invalid message");
                         }
                     }else{
-                        alert("Enter name first");
+                        alert("Invalid email address!");
                     }
             }
             
@@ -99,7 +95,7 @@
           <div style="margin-left:50px">
             <a href="https://www.instagram.com/anokhatechfest/" target="_blank"><img src="../img/bginstalogo.gif" class="imginsta"></a>
             <a href="https://www.facebook.com/anokha.amrita/" target="_blank"><img src="../img/bgfblogo.gif" class="imgfb"></a>
-            <a href="https://twitter.com/anokha_techfest?lang=en"><img src="../img/bgtwitterlogo.gif" class="imgfb"></a>
+            <a href="#"><img src="../img/bgtwitterlogo.gif" class="imgfb"></a>
           </div>
         </div></center>
         
