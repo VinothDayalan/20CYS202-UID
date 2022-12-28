@@ -8,15 +8,20 @@
             function ValiAll(){
                     value = document.forms.umail.value;
                     txt = document.forms.contxt.value;
-                    var validRegex = /^[a-zA-Z0-9]+@[a-zA-Z]+(\.[a-zA-Z0-9-])/;
-                    if (value.match(validRegex)) {
-                        if (txt != ""){
-                            alert("Form is valid");
+                    value1 = document.forms.uname.value;
+                    var validRegex = /^[a-zA-Z0-9.-]+@[a-zA-Z.]+(\.[a-zA-Z0-9-])/;
+                    if (value1 != ""){
+                        if (value.match(validRegex)) {
+                            if (txt != ""){
+                                alert("Form is valid");
+                            }else{
+                                alert("Invalid message");
+                            }
                         }else{
-                            alert("Invalid message");
+                            alert("Invalid email address!");
                         }
                     }else{
-                        alert("Invalid email address!");
+                        alert("Enter name first");
                     }
             }
             
