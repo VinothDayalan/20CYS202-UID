@@ -8,15 +8,24 @@
             function ValiAll(){
                     value = document.forms.cmail.value;
                     passs = document.forms.pass.value;
+                    value1 = document.forms.uname.value;
+                    value2 = document.forms.phone.value;
+                    value3 = document.forms.city.value;
+                    value4 = document.forms.cname.value;
                     var validRegex = /^[a-zA-Z0-9.-]+@[a-zA-Z.]+(\.[a-zA-Z0-9-])/;
-                    if (value.match(validRegex)) {
-                        if (passs.length > 8 || pass.length<24){
-                            alert("Form is valid");
+                    if (value1 != ""|| value2 != ""|| value3 != ""|| value4 != ""){
+                        if (value.match(validRegex)) {
+                            if (passs.length > 8 || pass.length<24){
+                                alert("Form is valid");
+                            }else{
+                                alert("Invalid password");
+                            }
                         }else{
-                            alert("Invalid password");
+                            alert("Invalid email address!");
                         }
                     }else{
-                        alert("Invalid email address!");
+                        alert("Form is empty");
+                        console.log("error");
                     }
             }
             
