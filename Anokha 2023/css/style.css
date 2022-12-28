@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Didact+Gothic&display=swap');
+body {
+     /* background: #ff00cc;
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+  background: linear-gradient(to right, #333399, #ff00cc);
+   */
+   background-color: black;
+   background-image: url("../img/bg3.gif");
+    margin:0px;
+    font-family: 'Montserrst',sans-serif;
+  }
+
+.ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-top: -60px;
+}
+.ul2{
+  color: rgb(184, 183, 183);
+  margin-left: 480px;
+  margin-top: -180px;
+}
+.li2{
+  float: left;
+}
+.li1 {
+  float: right;
+}
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  
+}
+li a:hover{
+  color: black;
+}
+.trapezoid {
+	border-bottom: 50px solid #555;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 4px;
+  opacity: 0.7;
+}
+.trapezoid-up {
+  border-bottom: 80px solid #EA176E;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0;
+	width: 400px;
+  opacity: 1;
+}
+
+.trapezoid-down {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 80px solid #EA176E;
+  height:0;
+	width: 400px;
+  opacity: 1;
+}
+.trapezoid-down1 {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 80px solid #EA176E;
+  /* background: ; */
+  height:0;
+	width: 400px;
+  opacity: 1;
+  float: right;
+  margin-top: -80px;
+}
+.amritalogo{
+  margin-top: -200px;
+  transition: transform .2s;
+}
+.amritalogo:hover{
+  transform: scale(1.05);
+}
+.h11{
+  font-size: 50px;
+}
+.h12{
+  margin-top: -5px;
+  font-size: 80px;
+  font-family: 'Rubik Vinyl', cursive;
+}
+.h13{
+  margin-top: -45px;
+  font-size: 50px;
+  font-family: 'Rakkas', cursive;
+}
+.h14{
+  margin-top: -35px;
+  font-size: 50px;
+}
+.h21{
+  color: white;
+  margin-left: 500px;
+  margin-top: -250px;
+}
+.p1{
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  margin-top: -550px;
+  /* font-family: 'Didact Gothic', sans-serif; */
+  /* font-family: 'Anton', sans-serif; */
+  font-family: 'Alfa Slab One', sans-serif;
+}
+.p2{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.682);
+  font-size: 30px;
+}
+.button{
+  padding:9px 25px;
+  background-color: #EA176E;
+  color:white;
+  border:none;
+  border-radius: 50px;
+  cursor :pointer;
+  transition:all 0.3s ease 0s;
+}
+.button:hover{
+  background-color: black;
+  border: 2px solid #EA176E;
+}
+.p3{
+  color: white;
+  margin-left: 800px;
+  font-size: 30px;
+  font-family: 'Zen Dots',sans-serif;
+}
+.p4{
+  color: rgb(184, 183, 183);
+  margin-left: 500px;
+  margin-top: -180px;
+}
+.p5{
+  color: white;
+  text-align: center;
+  margin-top: -40px;
+  font-size: 17px;
+}
+.p6{
+  color: rgba(184, 183,183);
+  margin-left: 500px;
+}
+/* circle */
+
+.dot {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #7e1b94;
+  border-radius: 50%;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  margin-left: 200px;
+}
+.dot1 {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #7e1b94;
+  border-radius: 50%;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+.dot2 {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #7e1b94;
+  border-radius: 50%;
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+hr.new1 {
+  border: 2px dashed #EA176E;
+  width: 150px;
+  margin-top: -10px;
+  margin-left: 500px;
+}
+hr.new2 {
+  border: 2px dashed #EA176E;
+  width: 180px;
+  margin-top: -10px;
+  margin-left: 810px;
+}
+.imginsta{
+  color: #EA176E;
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: -50px;
+}
+.imgfb{
+  color: #EA176E;
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.img1{
+  width: 100%;
+}
