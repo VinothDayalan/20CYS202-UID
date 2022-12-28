@@ -8,7 +8,7 @@
             function ValiAll(){
                     value = document.forms.cmail.value;
                     passs = document.forms.pass.value;
-                    var validRegex = /^[a-zA-Z0-9.-]+@[a-zA-Z]+(\.[a-zA-Z0-9-])/;
+                    var validRegex = /^[a-zA-Z0-9.-]+@[a-zA-Z.]+(\.[a-zA-Z0-9-])/;
                     if (value.match(validRegex)) {
                         if (passs.length > 8 || pass.length<24){
                             alert("Form is valid");
