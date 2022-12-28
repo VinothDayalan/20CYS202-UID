@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Didact+Gothic&display=swap');
+body {
+    min-width: 800px;
+     /* background: #ff00cc;
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+  background: linear-gradient(to right, #333399, #ff00cc);
+   */
+   background: black;
+   background-image: url("../img/bg3.gif");
+    margin:0px;
+    font-family: 'Montserrst',sans-serif;
+  }
+
+.ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-top: -60px;
+}
+.li2{
+  float: left;
+}
+.li1 {
+  float: right;
+}
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  
+}
+li a:hover{
+  color: black;
+}
+.trapezoid-down {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 80px solid #EA176E;
+  height:0;
+	width: 400px;
+  opacity: 1;
+}
+.trapezoid-down1 {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 80px solid #EA176E;
+  /* background: ; */
+  height:0;
+	width: 400px;
+  opacity: 1;
+  float: right;
+  margin-top: -80px;
+}
+.amritalogo{
+  margin-top: -200px;
+  transition: transform .2s;
+}
+.amritalogo:hover{
+  transform: scale(1.05);
+}
+.h1{
+    color: white;
+}
+.h2{
+    color: white;
+    font-size: 40px;
+    margin-top: -2090px;
+    margin-left: 410px;
+}
+.h3{
+    color: white;
+    margin-top: 10px;
+    margin-left: 730px;
+    font-size: 40px;
+}
+.h4{
+    color: white;
+    margin-top: -20px;
+    margin-left: 372px;
+    font-size: 60px;
+}
+.h5{
+    color: white;
+    margin-top: 367px;
+    margin-left: 385px;
+    font-size: 35px;
+}
+.h6{
+    color: white;
+    margin-top: 0px;
+    margin-left: 765px;
+    font-size: 50px;
+}
+.h7{
+    color: white;
+    margin-top: 0px;
+    margin-left: 415px;
+    font-size: 35px;
+}
+hr{
+    border: 2px dashed #EA176E;
+    width: 150px;
+    margin-top: -10px;
+    margin-left: 570px;
+  }
