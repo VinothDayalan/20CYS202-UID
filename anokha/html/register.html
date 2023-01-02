@@ -13,7 +13,7 @@
                     value2 = document.forms.phone.value;
                     value3 = document.forms.city.value;
                     value4 = document.forms.cname.value;
-                    var validRegex = /^[a-zA-Z0-9.-]+@[a-zA-Z.]+(\.[a-zA-Z0-9-])/;
+                    var validRegex = /^[a-zA-Z.-]+[0-9a-z.-]+@[a-zA-Z.]+(\.[a-z])/;
                 if(value1!=""||value2!=""||value3!=""||value4!=""){
                     if (value.match(validRegex)) {
                         if (passs.length > 8){
