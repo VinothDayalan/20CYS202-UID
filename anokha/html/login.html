@@ -9,7 +9,7 @@
             function subFunc(){
                     value = document.forms.uname.value;
                     passs = document.forms.pass.value;
-                    var validRegex = /^[a-zA-Z0-9]+@[a-zA-Z]+(\.[a-zA-Z0-9-])/;
+                    var validRegex = /^[a-zA-Z.-]+[0-9a-z.-]+@[a-zA-Z.]+(\.[a-z])/;
                     if (value.match(validRegex)) {
                         if (passs.length > 8){
                             alert("valid password");
