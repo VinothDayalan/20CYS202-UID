@@ -9,9 +9,12 @@ body {
   background: linear-gradient(to right, #333399, #ff00cc);
    */
    background: black;
-   background-image: url("../img/bg3.gif");
+   background-image: url("../img/bag.jpg");
     margin:0px;
     font-family: 'Montserrst',sans-serif;
+    height: 100%; 
+    background-repeat: no-repeat;
+  background-size: cover;
   }
 
 .ul1 {
