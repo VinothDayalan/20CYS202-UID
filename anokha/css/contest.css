@@ -9,7 +9,7 @@ body {
   background: linear-gradient(to right, #333399, #ff00cc);
    */
    background: black;
-   background-image: url("../img/bag.jpg");
+   background-image: url("../img/walpa.jpg");
     margin:0px;
     font-family: 'Montserrst',sans-serif;
     height: 100%; 
@@ -113,3 +113,97 @@ hr{
     margin-top: -10px;
     margin-left: 570px;
   }
+  .cardbox{
+    width: 250px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.843);
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  .cardbox:hover{
+    transform: scale(1.05);
+  }
+  .cardbox1:hover{
+    transform: scale(1.05);
+  }
+  .cardbox2:hover{
+    transform: scale(1.05);
+  }
+  .cardbox1{
+    width: 250px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.843);
+    border-radius: 10px;
+    margin-top: -300px;
+    margin-left: 150px;
+  }
+  .cardbox2{
+    width: 250px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.843);
+    border-radius: 10px;
+    margin-top: -300px;
+    margin-left: 920px;
+  }
+  .ctf{
+    margin-top: 30px;
+    width: 200px;
+    height: 150px;
+  }
+  .pro{
+    margin-top: 30px;
+    width: 200px;
+    height: 150px;
+  }
+  .bug{
+    margin-top: 30px;
+    width: 200px;
+    height: 150px;
+  }
+  .cb1{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    border: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .cb1:hover{
+    background-color: #aaa;
+
+  }
+  .cb11:hover{
+    background-color: rgb(0, 106, 255);
+  }
+  .cb11{
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    border: 2px solid black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+  }
+  .imginsta{
+    color: #EA176E;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: -50px;
+  }
+  .imgfb{
+    color: #EA176E;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+  .trapezoid-up {
+    border-bottom: 80px solid #EA176E;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 50px;
+      width: 400px;
+    opacity: 1;
+  }
+  

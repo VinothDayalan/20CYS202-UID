@@ -9,7 +9,7 @@ body {
   background: linear-gradient(to right, #333399, #ff00cc);
    */
    background: black;
-   background-image: url("../img/bag.jpg");
+   background-image: url("../img/walpa.jpg");
     margin:0px;
     font-family: 'Montserrst',sans-serif;
     height: 100%; 
@@ -410,7 +410,8 @@ hr.new1 {
     border-bottom: 80px solid #EA176E;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    height: 0;
+    height: 50px;
       width: 400px;
     opacity: 1;
   }
+  
