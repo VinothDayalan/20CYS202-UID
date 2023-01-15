@@ -9,16 +9,16 @@
             function subFunc(){
                     value = document.forms.uname.value;
                     passs = document.forms.pass.value;
-                    var validRegex = /^[a-zA-Z0-9]+@[a-zA-Z]+(\.[a-zA-Z0-9-])/;
+                    var validRegex = /^[a-zA-Z0-9.-]+@[a-zA-Z.]+(\.[a-zA-Z0-9-])/;
                     if (value.match(validRegex)) {
                         if (passs.length > 8){
-                            alert("valid password");
+                            alert("You are now Logged in");
                             // window.location.href = "../html/home.html";
                         }else{
-                            alert("Invalid password");
+                            alert("Password incorrect Please try again.....");
                         }
                     }else{
-                        alert("Invalid email address!");
+                        alert("Email address! incorrect Please try again.....");
                     }
                 
             }
