@@ -122,12 +122,17 @@ hr{
   }
   .cardbox:hover{
     transform: scale(1.05);
+    background: white;
   }
   .cardbox1:hover{
     transform: scale(1.05);
+    background: white;
+
   }
   .cardbox2:hover{
     transform: scale(1.05);
+    background: white;
+
   }
   .cardbox1{
     width: 250px;
@@ -174,6 +179,7 @@ hr{
   }
   .cb11:hover{
     background-color: rgb(0, 106, 255);
+    color: white;
   }
   .cb11{
     text-decoration: none;
