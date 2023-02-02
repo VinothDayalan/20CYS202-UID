@@ -99,7 +99,15 @@ li a:hover{
 }
 .gimg1{
   border-radius: 20px;
+  
 }
 .gimg1:hover{
   transform: scale(1.02);
+  border: 2px solid white;
 }
+.marquee {position:relative;
+  overflow:hidden;
+  width:500px;
+  height:60px;
+  border:solid black 1px;
+  }
